@@ -9,8 +9,10 @@ body {
 }
 
 .navbar {
+    position: fixed;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
