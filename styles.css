@@ -28,6 +28,7 @@ body {
 }
 
 .club-title {
+    display: none;
     font-size: 1.5rem;
     margin: .5rem;
 }
@@ -67,6 +68,7 @@ body {
     width: 30px;
     height: 21px;
 }
+
 .toggle-button .bar {
     height: 3px;
     width: 100%;
@@ -81,5 +83,9 @@ body {
 
     .navbar-links {
         display: none;
+    }
+
+    .club-title {
+        display: flex;
     }
 }
