@@ -98,12 +98,9 @@ body {
         display: flex;
     }
 
-    .navbar {
-        height: 56px;
-    }
-
-    .navbar-links {
-        display: none;
+   .navbar-links {
+       /*  display: none; */
+       width: 100%
     }
 
     .navbar-logo {
@@ -111,7 +108,6 @@ body {
         top: 0;
         bottom: 0;
         display: flex;
-    
     }
 
     .navbar-club-title {
@@ -120,5 +116,11 @@ body {
 
     .logo {
         display: none;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+
     }
 }
