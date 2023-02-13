@@ -27,6 +27,15 @@ body {
     z-index: 1;
 }
 
+.navbar-logo {
+    position: relative;
+    display: none; 
+    bottom: 51px;
+    width: 60px;
+    height: auto;
+
+}
+
 .navbar-club-title {
     display: none;
     font-size: 1.5rem;
@@ -89,8 +98,20 @@ body {
         display: flex;
     }
 
+    .navbar {
+        height: 56px;
+    }
+
     .navbar-links {
         display: none;
+    }
+
+    .navbar-logo {
+        display: flex; 
+        width: 60px;
+        height: auto;
+        margin-top: 54px;
+    
     }
 
     .navbar-club-title {
