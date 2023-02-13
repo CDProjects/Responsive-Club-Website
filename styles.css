@@ -54,5 +54,16 @@ body {
 }
 
 .navbar-links li a:hover {
-    background-color: seagreen;
+    color: seagreen;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
 }
