@@ -31,6 +31,10 @@ nav {
   background-color: black;
 }
 
+.logo-image {
+  display: none;
+}
+
 nav .logo {
   float: left;
   width: 40%;
@@ -88,6 +92,12 @@ nav .icon-burger .line {
 }
 
 @media screen and (max-width: 768px) {
+
+  .logo-image {
+    display: flex;
+    margin-right: 10px;
+  }
+
   nav .logo {
     display: flex;
     float: none;
