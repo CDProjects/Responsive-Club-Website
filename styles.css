@@ -101,6 +101,10 @@ nav .icon-burger .line {
     display: none;
   }
 
+  nav .icon-burger {
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
