@@ -8,7 +8,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1121px;
+  width: 58.5vw;
 }
 
 body {
@@ -154,4 +154,13 @@ nav .icon-burger .line {
   nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
   }
+}
+
+.home-image {
+  display: flex;
+  position: absolute;
+  width: 160px;
+  height: auto;
+  padding-top: 65px;
+  z-index: 0;
 }
