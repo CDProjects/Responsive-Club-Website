@@ -97,14 +97,9 @@ nav .icon-burger .line {
 
 @media (min-width: 768px) and (max-width: 1068px) {
 
-  nav .links {
+  nav {
     display: none;
   }
-
-  nav .icon-burger {
-    display: block;
-  }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -175,17 +170,13 @@ nav .icon-burger .line {
 
 }
 
-#home .home-image {
+.home-image {
   display: flex;
   position: absolute;
   width: 160px;
   height: auto;
   padding-top: 65px;
   z-index: 0;
-}
-
-.home-image {
-  display: none;
 }
 
 .home-club {
@@ -199,27 +190,10 @@ nav .icon-burger .line {
   color: white
 }
 
-@media (min-width: 768px) and (max-width: 1068px) {
-
-.home-image {
-  display: flex;
-  padding: 0;
-  position: absolute;
-  width: 160px;
-  height: auto;
-  z-index: 100;
-  }
-
-  #home .home-image {
-    display: none;
-  }
-
-}
-
 
 @media screen and (max-width: 768px) {
   
-  #home .home-image {
+  .home-image {
     display: none;
   }
 
