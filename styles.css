@@ -95,6 +95,14 @@ nav .icon-burger .line {
   transition: all 0.3s ease-in-out;
 }
 
+@media (min-width: 768px) and (max-width: 1068px) {
+
+  nav {
+    display: none;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
 
   nav {
@@ -163,13 +171,17 @@ nav .icon-burger .line {
 
 }
 
-.home-image {
+#home .home-image {
   display: flex;
   position: absolute;
   width: 160px;
   height: auto;
   padding-top: 65px;
   z-index: 0;
+}
+
+.home-image {
+  display: none;
 }
 
 .home-club {
@@ -181,6 +193,22 @@ nav .icon-burger .line {
 .home-club h1 a {
   text-decoration: none;
   color: white
+}
+
+@media (min-width: 768px) and (max-width: 1068px) {
+
+.home-image {
+  display: flex;
+  padding: 0;
+  position: absolute;
+  width: 160px;
+  height: auto;
+  }
+
+  #home .home-image {
+    display: none;
+  }
+
 }
 
 
