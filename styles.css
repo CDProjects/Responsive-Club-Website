@@ -301,11 +301,21 @@ nav .icon-burger .line {
   }
 }
 
-
+.slideshow {
+  position: relative;
+  bottom: 120px;
+  left: 240px;
+  margin: 0 auto;
+  width: 50%;
+  overflow: hidden;
+}
 
 .slides {
+  width: 900px;
+  height: auto;
   overflow: hidden;
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 3s;
   display: none;
 }
+
