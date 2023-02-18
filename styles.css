@@ -289,6 +289,52 @@ nav .icon-burger .line {
   }
 }
 
-/* Slider */
-/* Slideshow Container */
 
+/* Slideshow */
+
+@keyframes fader {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+
+.fading-slideshow {
+  position: relative;
+  margin: 1em auto;
+  padding: 0;
+  list-style-type: none;
+  width: 360px;
+  height: 270px;
+}
+.fading-slideshow > li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* current slide */
+
+.fading-slideshow > li:first-of-type {
+  animation-name: fader;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  z-index: 20;
+}
+
+/* next slide to display */
+
+.fading-slideshow > li:nth-of-type(2) {
+  z-index: 10;
+}
+
+/* all other slides */
+
+.fading-slideshow > li:nth-of-type(n+3) {
+  display: none;
+}
