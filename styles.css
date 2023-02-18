@@ -294,4 +294,74 @@ nav .icon-burger .line {
 
 #slide-container {
   position: relative;
+  max-width: 80px;
+  height: auto;
 }
+
+#slide-first-element {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#slide-element-2,
+#slide-element-3,
+#slide-element-4,
+#slide-element-5,
+#slide-element-6,
+#slide-element-7,
+#slide-element-8,
+#slide-element-9,
+#slide-element-10,
+#slide-element-11,
+#slide-element-12,
+#slide-element-13,
+#slide-element-14,
+#slide-element-15 {
+  position: absolute;
+  width: 80px;;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.slide-image {
+  display: flex;
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+}
+
+#slide-first-element {
+  animation: fade-1 5s infinite;
+  -webkit-animation: fade-1 5s infinite;
+ }
+
+#slide-element-2 {
+  animation: fade-2 5s infinite;
+  -webkit-animation: fade-2 5s infinite;
+ }
+
+ #slide-element-3 {
+  animation: fade-3 5s infinite;
+  -webkit-animation: fade-3 5s infinite;
+ } 
+
+ @keyframes fade-1 {
+  0% { opacity: 1; }
+  33% { opacity: 0; }
+  66% { opacity: 0; }
+  100% { opacity: 1; }
+ }@keyframes fade-2 {
+  0% { opacity: 0; }
+  33% { opacity: 1; }
+  66% { opacity: 0; }
+  100% { opacity: 0; }
+ }@keyframes fade-3 {
+  0% { opacity: 0; }
+  33% { opacity: 0; }
+  66% { opacity: 1; }
+  100% { opacity: 0; }
+ } 
