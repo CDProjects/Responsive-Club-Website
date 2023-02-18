@@ -292,3 +292,20 @@ nav .icon-burger .line {
 
 /* Slideshow */
 
+@keyframes fade {
+  from{
+      opacity: 0.4;
+  }
+  to{
+      opacity: 1;
+  }
+}
+
+
+
+.slides {
+  overflow: hidden;
+  animation-name: fade;
+  animation-duration: 2s;
+  display: none;
+}

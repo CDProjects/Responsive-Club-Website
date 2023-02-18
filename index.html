@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./index.js">
+    <link rel="stylesheet" href="./index.js" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,7 +47,7 @@
       </label>
     </nav>
 
-          <!-- Home Section -->
+    <!-- Home Section -->
 
     <div class="wrapper">
       <div id="home">
@@ -65,11 +65,51 @@
       </div>
     </div>
 
-          <!-- Slideshow Section -->
+    <!-- Slideshow Section -->
 
-    
-      
+    <div class="slideshow">
+      <img
+        class="slides"
+        src="./Images/Akseli Peltoniemi.png"
+        alt="Profile pic of Akseli Peltoniemi"
+      />
+
+      <img
+        class="slides"
+        src="./Images/Alexander Bannatyne.png"
+        alt="Profile pic of Alexander Bannatyne"
+      />
+
+      <img
+        class="slides"
+        src="./Images/Curtis Pollard.png"
+        alt="Profile pic of Curtis Pollard"
+      />
+
+      <img
+        class="slides"
+        src="./Images/Daniel Kerr.png"
+        alt="Profile pic of Daniel Kerr"
+      />
     </div>
-    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 3000);
+      }
+    </script>
   </body>
 </html>
