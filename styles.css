@@ -293,17 +293,21 @@ nav .icon-burger .line {
 /* Slideshow Container */
 
 #slide-container {
-  position: relative;
-  max-width: 80px;
+  display: flex;
+  position: absolute;
+  max-width: 700px;
   height: auto;
+
 }
 
-#slide-first-element {
-  display: block;
+/* #slide-first-element {
+  display: flex;
+  position: absolute;
   width: 100%;
   height: auto;
-}
+} */
 
+#slide-first-element,
 #slide-element-2,
 #slide-element-3,
 #slide-element-4,
@@ -319,7 +323,7 @@ nav .icon-burger .line {
 #slide-element-14,
 #slide-element-15 {
   position: absolute;
-  width: 80px;;
+  width: 100px;
   height: auto;
   top: 0;
   bottom: 0;
@@ -329,23 +333,22 @@ nav .icon-burger .line {
 
 .slide-image {
   display: flex;
-  width: 600px;
+  width: 700px;
   height: auto;
-  border-radius: 20px;
 }
 
 #slide-first-element {
-  animation: fade-1 5s infinite;
+  animation: fade-1 10s infinite;
   -webkit-animation: fade-1 5s infinite;
  }
 
 #slide-element-2 {
-  animation: fade-2 5s infinite;
+  animation: fade-2 10s infinite;
   -webkit-animation: fade-2 5s infinite;
  }
 
  #slide-element-3 {
-  animation: fade-3 5s infinite;
+  animation: fade-3 10s infinite;
   -webkit-animation: fade-3 5s infinite;
  } 
 
