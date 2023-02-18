@@ -267,6 +267,7 @@ nav .icon-burger .line {
 
 .home-club {
   display: inline-block;
+  width: 100%;
   padding-top: 105px;
   padding-left: 180px;
 }
@@ -289,6 +290,32 @@ nav .icon-burger .line {
   }
 }
 
+.summary {
+  display: inline-block;
+  position: relative;
+  top: 400px;
+  right: 607px;
+  width: 100%;
+  height: 363.6px;
+  margin: auto;
+}
+
+.weareshamrocks {
+  display: flex;
+  position: relative;
+  right: 5px;
+  bottom: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  width: auto;
+}
+
+.founded {
+  display: block;
+  bottom: 10px;
+  left: 0;
+}
 
 /* Slideshow */
 
@@ -302,11 +329,13 @@ nav .icon-burger .line {
 }
 
 .slideshow {
-  position: relative;
-  bottom: 120px;
-  left: 240px;
+  display: flex;
+  position: absolute;
+  top: 20;
+  left: 775px;
   margin: 0 auto;
-  width: 50%;
+  max-width: 60em;
+  height: auto;
   overflow: hidden;
 }
 
@@ -315,7 +344,7 @@ nav .icon-burger .line {
   height: auto;
   overflow: hidden;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 2s;
   display: none;
 }
 
