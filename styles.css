@@ -359,7 +359,7 @@ nav .icon-burger .line {
   display: flex;
   position: absolute;
   top: 20;
-  left: 775px;
+  left: 700px;
   margin: 0 auto;
   max-width: 60em;
   height: auto;
@@ -375,3 +375,9 @@ nav .icon-burger .line {
   display: none;
 }
 
+@media screen and (max-width: 2050px) {
+  
+  .slides {
+
+  }
+}
