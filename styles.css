@@ -291,28 +291,9 @@ nav .icon-burger .line {
 }
 
 .summary {
-  position: relative;
-  top: 400px;
-  right: 484px;
-  width: 100vw;
-  height: 363.6vh;
-}
-
-.weareshamrocks {
-  display: flex;
-  position: relative;
-  right: 5px;
-  bottom: 25px;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 60px;
-  width: auto;
-}
-
-.founded {
-  display: block;
-  bottom: 10px;
-  left: 0;
+  display: inline-flexbox;
+  position: absolute;
+  top: 500px;
 }
 
 /* Slideshow */
