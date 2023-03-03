@@ -367,7 +367,7 @@ nav .icon-burger .line {
 }
 
 .slides {
-  width: 900px;
+  width: 100%;
   height: auto;
   overflow: hidden;
   animation-name: fade;
