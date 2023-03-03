@@ -375,9 +375,20 @@ nav .icon-burger .line {
   display: none;
 }
 
-@media screen and (max-width: 2050px) {
+@media screen and (max-width: 1900px) {
   
-  .slides {
+  .slideshow {
+    left: 680px;
+  }
+}
 
+@media screen and (max-width: 1800px) {
+  
+  .slideshow {
+    left: 750px;
+  }
+
+  .slides {
+    width: 80%;
   }
 }
