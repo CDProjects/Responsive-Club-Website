@@ -305,6 +305,42 @@ nav .icon-burger .line {
   margin-top: 15px;
 }
 
+.button-container {
+  position: absolute;
+  bottom: 270px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: seagreen; 
+  color: black; 
+  border: 2px solid seagreen;
+}
+
+.button1:hover {
+  background-color: white;
+  color: seagreen;
+}
+
+.button:active {
+  box-shadow: 0px 0px;
+  background-color: seagreen;
+  color: black
+}
+
 /* Slideshow */
 
 @keyframes fade {
