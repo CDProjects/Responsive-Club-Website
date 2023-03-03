@@ -293,7 +293,15 @@ nav .icon-burger .line {
 .summary {
   display: inline-flexbox;
   position: absolute;
-  top: 500px;
+  top: 400px;
+}
+
+.weareshamrocks {
+  font-size: 60px;
+}
+
+.founded {
+  margin-top: 15px;
 }
 
 /* Slideshow */
