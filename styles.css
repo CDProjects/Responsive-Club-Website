@@ -291,13 +291,11 @@ nav .icon-burger .line {
 }
 
 .summary {
-  display: inline-block;
   position: relative;
   top: 400px;
   right: 484px;
   width: 100vw;
   height: 363.6vh;
-  margin: auto;
 }
 
 .weareshamrocks {
