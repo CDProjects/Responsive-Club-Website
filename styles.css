@@ -392,3 +392,15 @@ nav .icon-burger .line {
     width: 80%;
   }
 }
+
+@media screen and (max-width: 1700px) {
+  
+  .slideshow {
+    left: 800px;
+  }
+
+  .slides {
+    margin-top: 40px;
+    width: 70%;
+  }
+}
